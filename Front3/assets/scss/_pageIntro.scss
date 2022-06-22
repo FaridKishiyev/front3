@@ -1,0 +1,29 @@
+#page-intro{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .intro-content{
+        color: whitesmoke;
+        text-align: center;
+        width: 45%;
+        p{
+            margin:40px 0px;
+        }
+
+        a{ 
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: 3px solid whitesmoke;
+            font-size: 14px;
+        }
+    }
+
+}

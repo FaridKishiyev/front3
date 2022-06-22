@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  background: none;
+}
+
+nav .nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-logo a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+nav .nav-area {
+  padding: 18px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+}
+
+nav .nav-menu li {
+  padding: 5px 10px;
+}
+
+nav .nav-menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: small;
+}
+
+#page-intro {
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page-intro .intro-content {
+  color: whitesmoke;
+  text-align: center;
+  width: 45%;
+}
+
+#page-intro .intro-content p {
+  margin: 40px 0px;
+}
+
+#page-intro .intro-content a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 3px solid whitesmoke;
+  font-size: 14px;
+}
+
+.curveUpColor, .curveDownColor {
+  fill: #fff;
+  stroke: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.curveUpColor {
+  margin-top: -100px;
+}
+
+#services {
+  background-color: white;
+}
+
+#services .services-header {
+  text-align: center;
+  padding: 50px;
+}
+
+#services .card {
+  text-align: center;
+  border: none;
+}
+
+#services .card-icon {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#services .icon {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #777777;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#services .fa-heart {
+  font-size: 40px;
+  color: #777777;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#services .card-body p {
+  margin: 40px 0px;
+}
+
+#services .card-link {
+  padding: 10px 25px;
+  background-color: #1abc9c;
+  border-radius: 50px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#services .card:hover .icon {
+  width: 140px;
+  height: 140px;
+}
+
+#services .card:hover .fa-heart {
+  font-size: 48px;
+}
